@@ -9,8 +9,18 @@ body {
 	width: 100%;
 	background-color: #323232;
 	color: white;
-	text-align: left;
-	
+	text-align: right;
+	line-height: 80px;
+}
+
+.logo {
+	float: left;
+}
+
+.top-ribbon li {
+	display: inline;
+	padding: 16px;
+	white-space: nowrap;
 }
 
 .page-button {
