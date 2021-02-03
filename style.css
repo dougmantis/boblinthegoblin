@@ -1,0 +1,66 @@
+body {
+	font-family: Trebuchet MS, sans-serif;
+	background-color: #b19c7d
+}
+
+.top-ribbon {
+	right: 0;
+	top: 0;
+	width: 100%;
+	background-color: #323232;
+	color: white;
+	text-align: left;
+	
+}
+
+.page-button {
+	color:white;
+}
+
+.page-button a:link,
+.page-button a:visited,
+.page-button a:hover,
+.page-button a:active {
+  text-decoration: none; 
+  color:white;
+}
+
+.content {
+  padding: 10px 20px;
+  border: solid 3px #a5300f;
+  background-color: #b27d49;
+  line-height: 15px;
+  margin: 0px 00px;
+}
+
+.content > h4 {
+  font-size: 23px;
+}
+
+.content ul {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #323232;
+  color: white;
+  text-align: left;
+}
+
+.footer li {
+	display:inline;
+	padding: 16px;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+  text-decoration: none; 
+  color:white;
+}
