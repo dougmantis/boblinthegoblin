@@ -25,6 +25,17 @@ body {
 
 .page-button {
 	color:white;
+	text-shadow: 3px 3px black;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+.page-button:hover {
+	color: #a5300f;
+	text-shadow: 0px 0px #a5300f;
+	font-weight: bold;
+	font-size: 150%;
+	text-decoration: underline;
 }
 
 .page-button a:link,
@@ -40,16 +51,53 @@ body {
   border: solid 3px #a5300f;
   background-color: #b27d49;
   line-height: 15px;
-  margin: 0px 00px;
+  margin: 0px 00px 10%;
 }
 
-.content > h4 {
-  font-size: 23px;
+.content > h1 {
+  font-size: 250%;
+  line-height: 1;
+  /*text-shadow: 2px 2px #a5300f;*/
+  text-align: center;
+  color: #323232;
 }
 
 .content ul {
   font-size: 13px;
   line-height: 20px;
+}
+
+.quick-butt {
+	background-color: #e5c243;
+	border: 2px solid #a5300f;
+	color: #a5300f;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 150%;
+	border-radius: 12px;
+}
+
+.standard-butt {
+	background-color: #7f5f52;
+	border: 2px solid #323232;
+	color: #e5c243;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 150%;
+	border-radius: 12px;
+}
+
+.butt-description{
+	font-style: italic;
+	color:323232;
+}
+
+.botton:hover {
+	text-decoration: underline;
 }
 
 .footer {
@@ -60,6 +108,7 @@ body {
   background-color: #323232;
   color: white;
   text-align: left;
+  line-height: 0;
 }
 
 .footer li {
