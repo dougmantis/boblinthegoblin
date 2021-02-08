@@ -67,6 +67,18 @@ body {
   line-height: 20px;
 }
 
+.columns {
+	display: flex;
+}
+
+.left-col {
+	flex: 50%
+}
+
+.right-col {
+	flex: 50%
+}
+
 .quick-butt {
 	background-color: #e5c243;
 	border: 2px solid #a5300f;
@@ -94,6 +106,7 @@ body {
 .butt-description{
 	font-style: italic;
 	color:323232;
+	line-height: 1.5;
 }
 
 .botton:hover {
