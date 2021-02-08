@@ -1,6 +1,6 @@
 	<div class="top-ribbon">
 		<div class="logo">
-			<a  href="index.html"><img src="logodark.PNG" alt="BoblintheGoblin.com"></a>
+			<a href="index.html"><img src="logodark.PNG" alt="BoblintheGoblin.com"></a>
 		</div>
 		<div class="nav menu">
 			<ul>
