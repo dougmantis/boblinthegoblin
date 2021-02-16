@@ -67,22 +67,51 @@ body {
   line-height: 20px;
 }
 
+.tight-content {
+  padding: 20px 20px 20px;
+  border: solid 3px #a5300f;
+  background-color: #b27d49;
+  line-height: 15px;
+  margin: 0px 25% 25%;
+}
+
+.tight-content > h1 {
+  font-size: 250%;
+  line-height: 1;
+  /*text-shadow: 2px 2px #a5300f;*/
+  text-align: center;
+  color: #323232;
+}
+
+.tight-content ul {
+  font-size: 13px;
+  line-height: 20px;
+}
+
 .columns {
 	display: flex;
 	padding-left: 10%;
 	padding-right: 10%;
+	margin: 10px;
+}
+
+.col-butt {
+	width: 50%;
+	margin: 20px;
 }
 
 .left-col {
 	flex: 50%;
 	justify-content: center;
     align-items: center;
+	padding: 15px 32px;
 }
 
 .right-col {
 	flex: 50%;
 	justify-content: center;
     align-items: center;
+	padding: 15px 32px;
 }
 
 .quick-butt {
@@ -90,11 +119,18 @@ body {
 	border: 2px solid #a5300f;
 	color: #a5300f;
 	padding: 15px 32px;
+	margin: 10px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: inline;
 	font-size: 250%;
 	border-radius: 12px;
+	width: 100%;
+}
+
+.quick-butt:hover {
+	text-decoration: underline;
+	background-color: #d5b233;
 }
 
 .standard-butt {
@@ -102,21 +138,70 @@ body {
 	border: 2px solid #323232;
 	color: #e5c243;
 	padding: 15px 32px;
+	margin: 10px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: inline;
 	font-size: 250%;
 	border-radius: 12px;
+	width: 100%;
+	
 }
+
+.generate-butt {
+	
+	background-color: #7f5f52;
+	border: 2px solid #323232;
+	color: #e5c243;
+	padding: 15px 32px;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	font-size: 250%;
+	border-radius: 12px;
+	width: 100%;
+	
+}
+
+.standard-butt:hover {
+	text-decoration: underline;
+	background-color: #6f4f42;
+}
+
+.generate-butt:hover {
+	text-decoration: underline;
+	background-color: #e5c243;
+	color: #6f4f42;
+}
+
 
 .butt-description{
 	font-style: italic;
-	color:323232;
+	color:#323232;
 	line-height: 1.5;
 }
 
-.botton:hover {
-	text-decoration: underline;
+.description {
+	font-style: italic;
+	color:#323232;
+	line-height: 1.5;
+}
+
+.description > input {
+	width: 100%;
+	height: 10%;
+	background-color: #DDDDDD;
+}
+
+.dropdown-galore {
+	display:block;
+	white-space: nowrap;
+}
+
+.dropdown-galore > li {
+	display:block;
+	white-space: nowrap;
 }
 
 .footer {

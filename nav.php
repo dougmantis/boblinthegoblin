@@ -5,16 +5,16 @@
 		<div class="nav menu">
 			<ul>
 				<li class = "page-button">
-					<a href="QuickCreator.html">Quick NPC Generator</a>
+					<a href="QuickCreator.php">Quick NPC Generator</a>
 				</li>
 				<li class = "page-button">
-					<a href="StandardCreator.html">Standard NPC Generator</a>
+					<a href="StandardCreator.php">Standard NPC Generator</a>
 				</li>
 				<li class = "page-button">
-					<a href="Load.html">Load NPC</a>
+					<a href="Load.php">Load NPC</a>
 				</li>
 				<li class = "page-button">
-					<a href="Login.html">Login</a>
+					<a href="Login.php">Login</a>
 				</li>
 			</ul>
 		</div>
