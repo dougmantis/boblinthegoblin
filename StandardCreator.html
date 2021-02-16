@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Boblin the Goblin</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+	<?php require "nav.php"; ?>
+	 
+	<div class = "tight-content">
+		<h1>Standard NPC generator:</h1>
+		<div class = "description">
+			<p>Adjust your parameters for an NPC here. No need to select something for every single catagory, we'll randomize whatever you don't specify.</p>
+			<p>TODO: make drop-down items select from tables</p>
+		</div>
+		
+		<div class = "dropdown-galore">
+			<ul>
+				<li>
+					<p>Their race is:</p>
+					<select name="race" id="race">
+						<option value="random">Random</option>
+						<option value="human">Human</option>
+						<option value="orc">Goblin</option>
+						<option value="Elf">Elf</option>
+						<option value="Dwarf">Dwarf</option>
+					</select>
+				</li>
+				<li>
+					<p>Their type is:</p>
+					<select name="type" id="type">
+						<option value="random">Random</option>
+						<option value="friendly">Friendly</option>
+						<option value="neutral">Neutral</option>
+						<option value="enemy">Enemy</option>
+					</select>
+				</li>
+				<li>
+					<p>Their alignment is:</p>
+					<select name="lawfulvschaotic" id="lawfulvschaotic">
+						<option value="random">Random</option>
+						<option value="chaotic">Chaotic</option>
+						<option value="neutral">Neutral</option>
+						<option value="lawful">Lawful</option>
+					</select>
+					<select name="goodvsevil" id="goodvsevil">
+						<option value="random">Random</option>
+						<option value="good">Good</option>
+						<option value="neutral">Neutral</option>
+						<option value="evil">Evil</option>
+					</select>
+				</li>
+				<li>
+					<p>Their profession is:</p>
+					<select name="profession" id="profession">
+						<option value="random">Random</option>
+						<option value="shopkeep">Shopkeep</option>
+						<option value="guard">Guard / Soldier</option>
+						<option value="blacksmith">Blacksmith</option>
+						<option value="farmer">Farmer</option>
+						<option value="unemployed">Unemployed</option>
+					</select>
+				</li>
+			</ul>
+			
+			<p>TODO: expand list of selectable attributes</p>
+			
+			<button class = "generate-butt" onclick="location.href='Character.php';" >Generate!</button>
+
+		</div>
+		
+	</div> <!-- page content -->
+	
+	<div class = "footer">
+		<ul>
+			<li>About the Author</li>
+			<li>Boblin</li>
+		</ul>
+	</div> <!-- footer -->
+	 
+	 
+	</body>
+</html>
